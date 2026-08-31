@@ -278,9 +278,7 @@ function filterCountries() {
     } else if (inputElem) {
       countryName = inputElem.value;
     }
-    
-    // 文字列が含まれているかを判定
-    if (query === '' || countryName.toLowerCase().includes(query)) {
+        if (query === '' || countryName.toLowerCase().includes(query)) {
       row.style.display = '';
     } else {
       row.style.display = 'none';
